@@ -1,10 +1,10 @@
-#################################
-#				#
-#   mi servidor ubuntu		#
-#				#
+##########################
+#					#
+#   mi servidor ubuntu	#
+#					#
 #  para Cloud Schematics	#
-#				#
-#################################
+#					#
+##########################
 #
 # IBM Cloud Provider →  https://ibm-bluemix.github.io/tf-ibm-docs/
 #
@@ -26,7 +26,7 @@
 		hostname				= "${var.hostname}"
 		os_reference_code		= "UBUNTU_16_64"
         	domain				= "arcadia.ibm.com"
-        	datacenter			= "PAR01"
+        	datacenter			= "${var.datacenter}"
         	network_speed			= 100
         	hourly_billing			= true
           private_network_only	= false
@@ -44,6 +44,7 @@
 ##############################################################################
 # Variables
 ##############################################################################
+/*
 variable username {
   description = "Softlayer username"
 }
@@ -56,6 +57,7 @@ variable public_key {
 variable hostname {
   description = "hostname"
 }
+*/
 ##############################################################################
 # Outputs
 ##############################################################################
