@@ -1,11 +1,12 @@
-##########################
-#					#
-#   mi servidor ubuntu	#
-#					#
+#################################
+#				#
+#   mi servidor ubuntu		#
+#				#
 #  para Cloud Schematics	#
-#					#
-##########################
+#				#
+#################################
 #
+# IBM Cloud Provider →  https://ibm-bluemix.github.io/tf-ibm-docs/
 #
 # variables in variables.tf
 # values for variables in terraform.tfvars 
