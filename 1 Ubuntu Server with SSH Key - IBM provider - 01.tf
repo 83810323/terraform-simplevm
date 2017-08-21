@@ -17,7 +17,7 @@
 }
 #
 	resource "ibm_compute_ssh_key" "ssh_key_fernando_ibm" {
-		name       = "ssh_key_fernando_ibm"
+		label      = "ssh_key_fernando_ibm"
 		notes      = "clave pública de Fernando Arribas Uguet creada con provider ibm"
 		public_key = "${var.public_key}"
 }
