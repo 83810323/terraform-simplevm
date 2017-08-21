@@ -36,7 +36,7 @@
 		user_metadata			= "{\"value\":\"newvalue\"}"
 		dedicated_acct_host_only	= true
 		local_disk			= false
-		ssh_keys				=["${ibm_compute_ssh_key.ssh_key_fernando_ibm.id}"]
+		ssh_key_ids			= ["${ibm_compute_ssh_key.ssh_key_fernando_ibm.id}"]
 #		provisioner "local-exec" {command = "apt-get update > /tmp/ubuntu_update.txt" on_failure = "continue"}
 #		provisioner "local-exec" {command = "apt-get -y install xosview xsysinfo >> /tmp/ubuntu_update.txt" on_failure = "continue"}
 }
