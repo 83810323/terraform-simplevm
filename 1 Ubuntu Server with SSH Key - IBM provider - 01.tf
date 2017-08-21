@@ -8,8 +8,9 @@
 #
 # IBM Cloud Provider →  https://ibm-bluemix.github.io/tf-ibm-docs/
 #
-# variables in variables.tf
-# values for variables in terraform.tfvars 
+# all the 5 variables have been defined in 'variables.tf'
+# values for 3 variables in 'terraform.tfvars'
+# values for 2 variables in Cloud Schematics configuration called Simple VM (id: 4b15c7db979b793695073397e105a4b5)
 #
 	provider "ibm" {
 		softlayer_username = "${var.username}"
@@ -37,12 +38,15 @@
 		dedicated_acct_host_only	= true
 		local_disk			= false
 		ssh_key_ids			= ["${ibm_compute_ssh_key.ssh_key_fernando_ibm.id}"]
-#		provisioner "local-exec" {command = "apt-get update > /tmp/ubuntu_update.txt" on_failure = "continue"}
-#		provisioner "local-exec" {command = "apt-get -y install xosview xsysinfo >> /tmp/ubuntu_update.txt" on_failure = "continue"}
+		provisioner "local-exec" {command = "apt-get update > /tmp/ubuntu_update.txt" on_failure = "continue"}
+		provisioner "local-exec" {command = "apt-get -y install xosview xsysinfo >> /tmp/ubuntu_update.txt" on_failure = "continue"}
 }
 #
 ##############################################################################
 # Variables
+#
+# This section is not required when all the variables are defined in variables.tf files and/or in Schematics configuration 
+#
 ##############################################################################
 /*
 variable username {
