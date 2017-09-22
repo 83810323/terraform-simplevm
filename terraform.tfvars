@@ -4,7 +4,7 @@ key_note = "clave pública de Fernando Arribas Uguet"
 */
 username = "304454_83810323@es.ibm.com"
 # api_key =
-public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3g/dw/cSGzF/P0h9bbPU1LfkdOx5y+bvLWtO1GL8/MkpSGJ5H0btYudtB/Vf6k/EuzT/9QzFNzIfMxoCaooVs8rpMLFFOy2IYPHUavD9+LYr7tAlQ0fPR1iJ8x9bZcALA/r37JPqfJi/Hf0PAKQr36En7JQRmMLxqDFQ31UiVaGPrTS31COgk/Qa2JQWgE4xCGMz0RBLaIwpAy/mjzVIKDCeu2Par876x3oPU0eVxfv0stJOHTc320dgj7OrDA6tPd9yLsjO4o8kvGYolcm7Koa8ZKdPMbef610nbv7Viwb2/a4YwEL2wH5f4CfwK80qb5Yk37qDBgoZQ4Nv8er/1 sp10323@ES210323"
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDvoyo/84nWM0WS5gwni8BPzshODq8B49907eBnbJorTnwsw+H0ZN5uWE6fH15bu+5s+RuQc5eMPO3yWbEkLv2/aWxq0C/5A3CXag9tATSliUh2ecV9VstFgNLWaFsf/qEOdQHJGUo3PNUNoY1q/H/xR6hxps+iitJu87M2NIgUuZ7WyHs0m4BuwYW+36xwJMthFrE5zb4rpqwIZBaHi7W1bqlaTqicPcP10tEzj04/th66zd8IGmgQ0BXfYucjjaCtqdf4qq/0K7XiR38kWeSy0ln53R4dd5DshuKRIL82bWRcsr554tDzYD7p3ECJatrOzPYggP41CekUkHdR+l+1 fernando@ES210323"
 datacenter = "par01"
 # hostname =
 
